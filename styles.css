@@ -61,7 +61,7 @@ body {
 .number {
   background: url(dynamic.webp) 0% 0% / cover no-repeat;
   background-clip: text;
-  font-size: 10rem;
+  font-size: 12rem;
   text-align: center;
   word-break: break-all;
   -webkit-background-clip: text;
@@ -75,4 +75,96 @@ body {
   justify-content: center;
   padding: 0 4rem;
   position: relative;
+}
+
+@media screen and (min-width: 580px) {
+  .number {
+    font-size: 13rem;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .number {
+    font-size: 13.5rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 647px) {
+  .number {
+    font-size: 13.65rem;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .number {
+    font-size: 13.85rem;
+  }
+}
+
+@media screen and (min-width: 657px) {
+  .number {
+    font-size: 14rem;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .number {
+    font-size: 14.5rem;
+  }
+}
+
+@media screen and (min-width: 685px) {
+  .number {
+    font-size: 14.75rem;
+  }
+}
+
+@media screen and (min-width: 690px) {
+  .number {
+    font-size: 15rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .number {
+    font-size: 15.35rem;
+    line-height: 0.8;
+  }
+}
+
+@media screen and (min-width: 715px) {
+  .number {
+    font-size: 15.5rem;
+  }
+}
+
+@media screen and (min-width: 723px) {
+  .number {
+    font-size: 15.75rem;
+  }
+}
+
+@media screen and (min-width: 733px) {
+  .number {
+    font-size: 15.95rem;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .number {
+    font-size: 16.2rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .number {
+    font-size: 16.5rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .number {
+    font-size: 14.5rem;
+  }
 }
